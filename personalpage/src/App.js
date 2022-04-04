@@ -1,10 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
 
-
-function App() {
-  
-
+function App () {
   return (
     <div className="App">
       <NavBar>
@@ -29,7 +26,7 @@ function App() {
 
 <Projects>
 
-Projects I've worked on 
+Projects I've worked on
 
   <Project>
   ScreenSpeak
@@ -40,19 +37,19 @@ Projects I've worked on
   </Project>
 
   <Project>
-  
-  </Project>
 
+  </Project>
 
 </Projects>
 
 <Footer>
 
+Links to Pages again
 
 </Footer>
 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,5 +1,4 @@
-function AboutMe() {
-    
+function AboutMe () {
   return (
     <div className="App">
       <header>
@@ -12,7 +11,7 @@ function AboutMe() {
 <Body>
 
 <Project>
-  
+
 </Project>
 
 </Body>
@@ -22,7 +21,7 @@ function AboutMe() {
 </Footer>
 
     </div>
-  );
+  )
 }
 
-export default AboutMe;
+export default AboutMe
