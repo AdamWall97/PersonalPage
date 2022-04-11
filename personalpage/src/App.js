@@ -1,31 +1,20 @@
 import logo from './logo.svg'
 import './App.css'
+import NavBar from './NavBar'
+import React, { useState } from 'react'
+import Header from './Header'
 
 function App () {
+  const [projects, setProjects] = useState([])
+
   return (
-    <div className="App">
-      <NavBar>
-        Buttons with Links to new pages
-        - About Me
-        - Contact Me
-        - Main Page
-        - Link to Linked In
+    <div className="Home">
+      <NavBar></NavBar>
+      <Header></Header>
 
-      </NavBar>
+      <Icon key={id} id={id} />
 
-      <Header>
-        Photo of Myself
-
-        Adam Wall
-
-        Info About Adam
-
-        Welcome to my Website!
-
-      </Header>
-
-<Projects>
-
+      <Projects>
 Projects I've worked on
 
   <Project>
@@ -43,8 +32,6 @@ Projects I've worked on
 </Projects>
 
 <Footer>
-
-Links to Pages again
 
 </Footer>
 
