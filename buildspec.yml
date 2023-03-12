@@ -9,6 +9,11 @@ phases:
   build:
     commands:
       - npm run build
+  post_build:
+            commands:
+              # copy the contents of /build to S3
+              - aws s3 cp --recursive --acl public-read ./build s3://personalpagestorage/PersonalPage
+    
 artifacts:
   files:
     - '**/*'
