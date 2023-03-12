@@ -6,7 +6,7 @@ os: linux
 
 files:
   - source: /
-    destination: /var/www/W
+    destination: /var/www/
 
 hooks:
   ApplicationStop:
