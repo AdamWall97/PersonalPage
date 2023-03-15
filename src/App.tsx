@@ -1,7 +1,7 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'reactstrap';
+import { Button, Navbar} from 'reactstrap';
 import React from 'react';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
+        <Navbar>test</Navbar>
           Edit <code>src/App.js</code> <Button color="danger">Test Bootstrap</Button>and save to reload.
         </p>
         <a
