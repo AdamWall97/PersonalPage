@@ -25,6 +25,3 @@ fi
 echo installing application with npm
 cd /var/www/
 sudo npm install
-
-echo installing pm2
-sudo npm install pm2 -g
