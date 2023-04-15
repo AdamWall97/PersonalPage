@@ -1,4 +1,3 @@
-import { Nav, NavbarBrand, NavItem, NavLink } from "reactstrap";
 import React from "react";
 import { useLocation } from "react-router-dom";
 
@@ -6,37 +5,63 @@ const Header = () => {
 
   const currentLocation = useLocation();
 
-  console.log(currentLocation);
-
-
-
   return (
-    <div className="nav pills">
-      <NavItem>
-        <NavbarBrand href="/">Adam Wall</NavbarBrand>
-      </NavItem>  
-      {
-        currentLocation.pathname === "/experience" ?
-        <NavItem className="link-dark">
-        <NavLink href="/experience">
-          Experience
-        </NavLink>
-      </NavItem> 
-      :
-      <NavItem>
-      <NavLink href="/experience">
-        Experience
-      </NavLink>
-    </NavItem> 
-    }
-    
-      <NavItem>
-        <NavLink href="/interests">My Interests</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink href="/contact">Contact me!</NavLink>
-      </NavItem>
+  <nav className="navbar navbar-expand-lg navbar-light bg-white">
+    <a className="navbar-brand" href="/"><img src="/logo.png" style={{"height":"80px"}} alt="Logo" /></a>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav mr-auto" style={{"fontSize":20}}>
+        {
+          (currentLocation.pathname === "/") ?
+          <li className="nav-item active">
+            <a className="nav-link text-secondary" href="/">Home</a>
+          </li> 
+        :
+          <li className="nav-item">
+            <a className="nav-link" href="/">Home</a>
+          </li>
+        } 
+        {
+          (currentLocation.pathname === "/skills") ?
+          <li className="nav-item active">
+            <a className="nav-link text-secondary" href="/skills">My Skills</a>
+          </li> 
+        :
+          <li className="nav-item">
+            <a className="nav-link" href="/skills">My Skills</a>
+          </li>
+        } 
+        {
+          (currentLocation.pathname === "/experience") ?
+          <li className="nav-item active">
+            <a className="nav-link text-secondary" href="/experience">Experience</a>
+          </li> 
+        :
+          <li className="nav-item">
+            <a className="nav-link" href="/experience">Experience</a>
+          </li>
+        } 
+        {
+          (currentLocation.pathname === "/interests") ?
+          <li className="nav-item active">
+            <a className="nav-link text-secondary" href="/interests">Intrests</a>
+          </li> 
+        :
+          <li className="nav-item">
+            <a className="nav-link" href="/interests">Intrests</a>
+          </li>
+        } 
+      </ul>
+      <div className="d-flex">
+      <ul className="navbar-nav mr-auto">
+        <a className="nav-link" href="/"><i className="bi-linkedin link-primary" style={{"fontSize":25}} ></i></a>
+        <a className="nav-link" href="/"><i className="bi-github link-dark" style={{"fontSize":25}}></i></a>
+        </ul>
+        </div>
     </div>
+  </nav>
   );
 };
 

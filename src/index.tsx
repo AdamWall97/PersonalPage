@@ -22,7 +22,7 @@ import Header from "componets/Header";
 import "bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap.css";
-
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 // Configure nested routes with JSX
 const router = createBrowserRouter(
@@ -42,7 +42,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path="/experience" element={<h1>Experience</h1>} />
       <Route path="/contact" element={<h1>Contact Me!</h1>} />
-      <Route path="/Interests" element={<h1>My Interests</h1>} />
+      <Route path="/interests" element={<h1>My Interests</h1>} />
     </Route>
   )
 );
