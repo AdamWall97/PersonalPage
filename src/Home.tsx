@@ -1,20 +1,33 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Navbar } from "reactstrap";
 import React from "react";
 
 function Home() {
+
+  const [title, setTitle] = React.useState(["Developer", "Engineer", "Lucie", "Michael"]);
+  
+  
   return (
-    <>
-      <div>My Face</div>
-      <div>Hi my name is Adam and Welcome!</div>
-      <div>I'm an </div>
-      <div>Software</div>
-      <div>Mechanical</div>
-      <div>Automation</div>
-      <div>Engineer</div>
-    </>
+    <div className="jumbotron jumbotron-fluid">   
+      <div className="container">
+        <p className="lead">Hi I'm Adam and I'm a...</p>
+        <div className="container">
+        <div className="scroller text-primary">
+          <span>
+            {title[0]}
+            <br />
+            {title[1]}
+            <br />
+            {title[2]}
+            <br />
+            {title[3]}
+          </span>
+        </div>
+    </div>
+
+      </div>
+        <div>Engineer</div>
+    </div>
+   
   );
 }
-
 export default Home;

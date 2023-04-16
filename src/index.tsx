@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import { createRoot } from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import {
@@ -15,7 +14,7 @@ import {
 } from "react-router-dom";
 import Home from "Home";
 import Header from "componets/Header";
-
+import Skills from "pages/Skills";
 // Bootstrap CSS
 
 
@@ -41,7 +40,7 @@ const router = createBrowserRouter(
     >
       <Route path="/" element={<Home />} />
       <Route path="/experience" element={<h1>Experience</h1>} />
-      <Route path="/contact" element={<h1>Contact Me!</h1>} />
+      <Route path="/skills" element={<Skills/>} />
       <Route path="/interests" element={<h1>My Interests</h1>} />
     </Route>
   )
