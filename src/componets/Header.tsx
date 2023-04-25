@@ -26,11 +26,11 @@ const Header = () => {
         {
           (currentLocation.pathname === "/skills") ?
           <li className="nav-item active">
-            <a className="nav-link text-secondary" href="/skills">My Skills</a>
+            <a className="nav-link text-secondary" href="/skills">Skills</a>
           </li> 
         :
           <li className="nav-item">
-            <a className="nav-link" href="/skills">My Skills</a>
+            <a className="nav-link" href="/skills">Skills</a>
           </li>
         } 
         {
@@ -46,11 +46,11 @@ const Header = () => {
         {
           (currentLocation.pathname === "/interests") ?
           <li className="nav-item active">
-            <a className="nav-link text-secondary" href="/interests">Intrests</a>
+            <a className="nav-link text-secondary" href="/interests">Interests</a>
           </li> 
         :
           <li className="nav-item">
-            <a className="nav-link" href="/interests">Intrests</a>
+            <a className="nav-link" href="/interests">Interests</a>
           </li>
         } 
       </ul>
