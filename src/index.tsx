@@ -22,7 +22,6 @@ import "bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Interests from "pages/Interests";
 import Experience from "pages/Experience";
 
 // Configure nested routes with JSX
@@ -43,7 +42,6 @@ const router = createBrowserRouter(
       <Route path="/" element={<Home />} />
       <Route path="/experience" element={<Experience />} />
       <Route path="/skills" element={<Skills/>} />
-      <Route path="/interests" element={<Interests />} />
     </Route>
   )
 );

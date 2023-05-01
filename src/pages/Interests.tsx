@@ -4,22 +4,22 @@ import ParkMap, { Park } from "componets/ParkMap";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
+
+
+//Work in Progress
 export default function Interests(){
   
   const [activePark, setActivePark] = React.useState<Park | null>(null);
 
 
-  console.log(activePark);
 
   return (
     // Important! Always set the container height explicitly
     <div className="jumbotron">
       <div className="row"> 
         <div className="col-sm-4">
-        <h1>Hiking and API's</h1>
-        <h2>
-        Below is a list of all the national parks I've been too and a photo to go with it.
-        </h2>
+        <h1>Using Google maps API to create responsive maps for national parks I've been too </h1>
+      
         <div>List</div>
 
         </div>

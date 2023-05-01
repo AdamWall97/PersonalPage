@@ -42,22 +42,12 @@ const Header = () => {
           <li className="nav-item">
             <a className="nav-link" href="/experience">Experience</a>
           </li>
-        } 
-        {
-          (currentLocation.pathname === "/interests") ?
-          <li className="nav-item active">
-            <a className="nav-link text-secondary" href="/interests">Interests</a>
-          </li> 
-        :
-          <li className="nav-item">
-            <a className="nav-link" href="/interests">Interests</a>
-          </li>
-        } 
+        }
       </ul>
       <div className="d-flex">
       <ul className="navbar-nav mr-auto">
-        <a className="nav-link" href="/"><i className="bi-linkedin link-primary" style={{"fontSize":25}} ></i></a>
-        <a className="nav-link" href="/"><i className="bi-github link-dark" style={{"fontSize":25}}></i></a>
+        <a className="nav-link" href="https://linkedin.com/in/adam-wall123"><i className="bi-linkedin link-primary" style={{"fontSize":25}} ></i></a>
+        <a className="nav-link" href="https://github.com/AdamWall97"><i className="bi-github link-dark" style={{"fontSize":25}}></i></a>
         </ul>
         </div>
     </div>

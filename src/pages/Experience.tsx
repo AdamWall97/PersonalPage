@@ -82,30 +82,16 @@ export default function Experience(){
     // Important! Always set the container height explicitly
     <div className="jumbotron">
         <div className="w-75 mx-auto">
-        <div className="my-0 pb-2">
-            <h1>Education</h1>
-            <hr className="my-4 bg-secondary"></hr>
-            <div className="d-flex justify-context-between">
-                <h2 className="flex mr-auto p-3 jumbotron-title">University of Minnesota -- Twin Cities</h2>
-                <h2 className="flex p-3">August 2016 - May 2020</h2>
-            </div>
-            <div className="m-3">
-                <h4>Bachlors of Science in Mechanical Engineering with a minor in Computer Science</h4>
-                <p className="p-4">
-                    Relevent courseworks includes Robotics, Controls, Software  Engineer and Object Oriented Design, and  
-                </p>
-            </div>
-        </div>
         <div>
             <h1>Software Experience</h1>
             <hr className="my-4 bg-secondary"></hr>
                 <div className="d-flex justify-context-between">
-                <h2 className="flex mr-auto p-3">Automation Test Engineer <i>CommScope Inc.</i></h2>
+                <h2 className="flex mr-auto p-3">Automation Test Engineer at CommScope Inc.</h2>
                 <h2 className="flex p-3">June 2020 - Current</h2>
             </div>
             <div className="m-3">
                 <div className="d-flex justify-context-between"> 
-                    <h4 className="flex mr-auto p-3">Lab Data Harmonization and Automation</h4>
+                    <h4 className="flex mr-auto p-3">Optical Lab Automation and Global Data Harmonization</h4>
                     <div className="flex py-3">August 2022 - Current</div>
                 </div>
                 <ul className="py-3 list-group list-group-flush">
@@ -121,6 +107,12 @@ export default function Experience(){
                     <li className="list-group-item   bg-secondary">
                         Created fully automated build and deploy pipeline usinig Azure Devops to eliminate configuration time and increase security
                     </li>
+                    <li className="list-group-item   bg-secondary">
+                        Documented API to be usable by all Commscope application engineers.
+                    </li>
+                    <li className="list-group-item   bg-secondary">
+                        Tested dashboard results and optical calculations to ensure proper data and to meet ISO and A2LA accredidations.
+                    </li>
                 </ul>
             </div>
             <div className="m-3">
@@ -130,31 +122,36 @@ export default function Experience(){
                 </div>
                 <ul className="py-3 list-group list-group-flush">
                     <li className="list-group-item bg-secondary">
-                        Learned a new web framework (4D) on a time crunch to assist in bringing application to production
+                        Learned a new web framework (4D) on a short timeline to finish bringing application to production
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Influcened development team to implement automated test builds to increase efficency
+                        Influcened development team to implement automated test builds and developed bug tracking page to increase developer efficency and reduce scope creep
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Mentored team members on how to use Git effectivly
+                        Mentored team members on using Git
+                    </li>
+                    <li className="list-group-item bg-secondary">
+                        Used knowledge of API's to eliminate user and project database upkeep by hooking in Microsoft graph and Planview, saving the company 5 hours of developer time a week
                     </li>
                 </ul>
             </div>
         <div className="m-3">
             <div className="d-flex justify-context-between"> 
                 <h4 className="flex  p-3">Fiber Performance Calculator</h4>
-                <button className="flex mr-auto btn btn-primary ">Link</button>
+                <div className="flex mr-auto">
+                    <button className="btn btn-primary m-2 ">Link</button>    
+                </div>.
                 <div className="flex py-3">September 2021 - Current</div>
             </div>
             <ul className="py-3 list-group list-group-flush">
                 <li className="list-group-item bg-secondary">
-                    Managed top level design on calculator tool used by CommScope customers
+                    Designed top level algorthims and logic for calculator tool used by CommScope customers
                 </li>
                 <li className="list-group-item bg-secondary">
                     Oversaw tasks and work with different technical groups to ensure the product met customer and technical requirements
                 </li>
                 <li className="list-group-item bg-secondary">
-                    Ensured cross-team understanding to ensure go-live met timeline live date and validated that data met CommScope guidelines and warrenties      
+                    Managed team to meet go-to production timeline date and validated that data met CommScope guidelines and warrenties      
                 </li>
             </ul>
         </div>
@@ -173,13 +170,13 @@ export default function Experience(){
                 </div>
                 <ul className="py-4 list-group list-group-flush">
                     <li className="list-group-item bg-secondary">
-                        Performed metrology failure analysis on a wide variety of parts from fiber connectors to RF circuit boards
+                        Performed Xray analysis on a wide variety of parts from fiber connectors to RF circuit boards and understanding how they are manufactured, 
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Trained multiple technicians and created 3D calibration test method to allow CT scanner operation for failure and metrology analysis
+                        Trained multiple technicians and created 3D metrology calibration test method to allow CT scanner operation for failure and metrology analysis
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Streamlined scanning operation and analysis and created a file management system to bring in timelines  
+                        Streamlined scanning operation and created a file management system to reduce timeline by   
                     </li>
                 </ul>
             </div>
