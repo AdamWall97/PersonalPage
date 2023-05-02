@@ -36,7 +36,7 @@ function Home() {
         </div>
         <div className="row">
           <div className="col-lg-2"></div>
-          <h1 className="col-lg-10 mt-5 pt-5 text-right">I'm Adam! A passionate engineer with knowledge and experience in the software and mechanical space.</h1>
+          <h1 className="col-lg-10 mt-5 pt-5 text-right">I'm Adam! A passionate engineer looking to use merge my love of software and mechanics.</h1>
         </div>
           </div>
         <div className="col-xl-4 d-flex">
