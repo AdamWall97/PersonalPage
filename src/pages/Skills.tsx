@@ -33,10 +33,10 @@ function Skills() {
                 <SkillCard title="C#" rating={4} text="1 year of experience building RESTful APIs and supporting development in data acquisition applications"  />
             </div>
             <div className="col-lg">
-                <SkillCard title="Typescript" rating={4.5} text="2 years of experience building my personal page and building company test lab web tools"/>
+                <SkillCard title="Typescript" rating={4.5} text="1.5 years of experience building my personal page and dveloping company test lab web tools"/>
             </div>
             <div className="col-lg">
-                <SkillCard title="SQL" rating={3} text="1.5 years of experience maintaining enterprise lab request system and designing relational tables for lab applications"  />
+                <SkillCard title="SQL" rating={3.5} text="1.5 years of experience maintaining enterprise lab request system and designing relational tables for lab applications"  />
             </div>
         </div>
         <div className="row p-2">
@@ -54,10 +54,10 @@ function Skills() {
         <hr className="my-3 bg-secondary"></hr>
         <div className="row p-2">
             <div className="col-lg">
-                <SkillCard title="React" rating={5} text="1.5 years of experience building web applications using tools such as React-Query, Highcharts, and hooks"  />
+                <SkillCard title="React" rating={5} text="1.5 years of experience building web applications using tools such as React-Query, Highcharts, and Material UI"  />
             </div>
             <div className="col-lg">
-                <SkillCard title="ASP.NET Core" rating={3} text="1 year of experience building web API using libraries such as EF Core, Swashbuckle, NUnit, and Automapper"/>
+                <SkillCard title="ASP.NET Core" rating={3.5} text="1 year of experience building web APIs using libraries such as EF Core, Swashbuckle, NUnit, and Automapper"/>
             </div>
             <div className="col-lg">
                 <SkillCard title="NextJS" rating={4} text="1 year of experience with React used to create Test Lab Central application for data centralization and management"  />
@@ -70,10 +70,10 @@ function Skills() {
                 <SkillCard title="Git" rating={4} text="Worked in software development teams where Git is essential to provide version control and management of different environments"  />
             </div>
             <div className="col-lg">
-                <SkillCard title="Azure Devops" rating={4} text="Created automated CI/CD pipeline from scratch for Test Lab Central Development along with editing existing pipelines in enterprise request management system"/>
+                <SkillCard title="Azure Devops / Amazon Web Services" rating={4} text="Created automated CI/CD pipeline from scratch for test lab tools along with editing existing pipelines in enterprise request management system. This website is hosting using AWS services"/>
             </div>
             <div className="col-lg">
-                <SkillCard title="Amazon Web Services" rating={1.5} text="Created full CI/CD pipeline and cloud hosted EC2 machines to build and host this website" />
+                <SkillCard title="Green Belt Six Sigma and Process Improvement" rating={4} text="Became Green Belt Lean Six Sigma and used waste reduction and process improvement methodology to determine software needs" />
             </div>
         </div>
         <div className="row p-2">
@@ -81,10 +81,10 @@ function Skills() {
                 <SkillCard title="PowerBI" rating={2} text="Created bi-yearly dashboards for equipment utilization and environmental lab data"  />
             </div>
             <div className="col-lg">
-                <SkillCard title="Swagger / OpenAPI" rating={3} text="Used Swagger to document API's for application engineers to use in Data Acquision software"/>
+                <SkillCard title="CAD / Volume Graphics " rating={5} text="Used CAD softwares to create test fixtures, determine failures, and perform measurement analysis"/>
             </div>
             <div className="col-lg">
-                <SkillCard title="Microsoft Graph API" rating={3} text="Integrated Microsoft Graph API with Azure Active Directory to create SSO and User Funcationality for Test Lab Central"  />
+                <SkillCard title="Microsoft Graph API" rating={3} text="Integrated Microsoft Graph API with Azure Active Directory to create SSO and User Funcationality for test lab tools"  />
             </div>
         </div>
     </div>
