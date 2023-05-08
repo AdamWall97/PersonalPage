@@ -1,16 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createRoot } from "react-dom/client";
-import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
-  Link,
   createRoutesFromElements,
   Outlet,
-  redirect,
 } from "react-router-dom";
 import Home from "Home";
 import Header from "componets/Header";

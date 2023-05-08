@@ -1,5 +1,4 @@
 import React from "react";
-import ParkMap from "componets/ParkMap";
 
 
 export default function Experience(){
@@ -7,30 +6,31 @@ export default function Experience(){
   return (
     <div className="jumbotron">
         <div className="w-75 mx-auto">
-        <div>
-            <h1>Software Experience</h1>
+            <h1>Work Experience -- CommScope Inc</h1>
             <hr className="my-4 bg-secondary"></hr>
-                <div className="d-flex justify-context-between">
-                <h2 className="flex mr-auto p-3">Automation Test Engineer at CommScope Inc.</h2>
+            <div className="d-flex justify-context-between">
+                <h2 className="flex mr-auto p-3">Test Engineer</h2>
                 <h2 className="flex p-3">June 2020 - Current</h2>
             </div>
             <div className="m-3">
                 <div className="d-flex justify-context-between"> 
-                    <h4 className="flex mr-auto p-3">Test Lab Automation and Global Data Harmonization</h4>
-                    <div className="flex py-3">August 2022 - Current</div>
+                    <h4 className="flex mr-auto p-3">Lab Execution and Management System</h4>
                 </div>
                 <ul className="py-3 list-group list-group-flush">
                     <li className="list-group-item   bg-secondary">
-                        Designed global data architechture solution for all department test lab data to have a common structure for analysis
+                        Designed custom lab information management system to monitor utilization, store data efficiently, and automate analysis
                     </li>
                     <li className="list-group-item   bg-secondary">
-                        Developed measurement and equipment RESTful API using .NET and SQL to store test lab data and utilizations
+                        Developed RESTful API using .NET with SQL to create management and execution application to connect data acquisition systems to enterprise resource planning systems 
                     </li>
                     <li className="list-group-item   bg-secondary">
-                        Created optical and lab management tools with Typescript and React, initial features improving utilization tracking and increased lab efficiency by 5%
+                        Created lab tools with Typescript and React, initial features
+                        improved utilization tracking, improved response time to failure
+                        mode by 200%, and increased lab efficiency by 7%
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Designed modular data acquisition systems as a global solutiion for environmental monitoring in all CommScope test labs
+                    Built data acquisition hardware and software for environmental
+                    monitoring in test labs
                     </li>
                     <li className="list-group-item bg-secondary">
                         Tested and Documented lab automation application using .NET tools (Nunit and Swagger) to fulfill A2LA/IEC lab accredidiations and ensure valid results
@@ -41,15 +41,11 @@ export default function Experience(){
                     <li className="list-group-item   bg-secondary">
                         Documented API to be usable by all Commscope application engineers.
                     </li>
-                    <li className="list-group-item   bg-secondary">
-                        Tested dashboard results and optical calculations to ensure proper data and to meet ISO/IEC and A2LA accredidations.
-                    </li>
                 </ul>
             </div>
             <div className="m-3">
                 <div className="d-flex justify-context-between"> 
-                    <h4 className="flex mr-auto p-3">Lab Request Management System Development</h4>
-                    <div className="flex py-3">February 2023 - Current</div>
+                    <h4 className="flex mr-auto p-3">Enterprise Lab Request and Resource Management System</h4>
                 </div>
                 <ul className="py-3 list-group list-group-flush">
                     <li className="list-group-item bg-secondary">
@@ -62,7 +58,7 @@ export default function Experience(){
                         Mentored team members on using Git as project transferred from TFS version control
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Used knowledge of API's to eliminate user and project database upkeep by hooking in Microsoft graph and Planview
+                        Used knowledge of API's, corperate directory technologies (Azure Active Directory), and enterprise project management systems to eliminate user and project database upkeep by connecting application to Microsoft Graph and Planview
                     </li>
                 </ul>
             </div>
@@ -71,9 +67,8 @@ export default function Experience(){
                 <h4 className="flex  p-3">Fiber Performance Calculator</h4>
                 <div className="flex mr-auto">
                     <a href="https://calcfiberperformance.commscope.com" className="btn btn-primary m-2 ">Link</a>    
-                </div>.
-                <div className="flex py-3">September 2021 - Current</div>
-            </div>
+                </div>
+              </div>
             <ul className="py-3 list-group list-group-flush">
                 <li className="list-group-item bg-secondary">
                     Designed top level algorthims and logic for calculator tool used by CommScope customers
@@ -82,39 +77,29 @@ export default function Experience(){
                     Oversaw tasks and worked with different technical groups to ensure the product met customer and technical requirements
                 </li>
                 <li className="list-group-item bg-secondary">
-                    Managed team to meet go-to production timeline and validated that data met CommScope guidelines and warrenties      
+                    Managed team to meet production timeline and validated that data met guidelines and warrenties      
                 </li>
             </ul>
-        </div>
-        </div>
-        <div className="jumbotron my-0">
-            <h1>Mechanical and Management Experience</h1>
-            <hr className="my-4 bg-secondary"></hr>
-                <div className="d-flex justify-context-between">
-                <h2 className="flex mr-auto p-3">R&D Test Engineer at CommScope Inc.</h2>
-                <h2 className="flex p-3">June 2020 - Current</h2>
             </div>
             <div className="m-3">
                 <div className="d-flex justify-context-between"> 
-                    <h4 className="flex mr-auto p-3">Metrology Lab Failure Analysis Engineer</h4>
-                    <div className="flex py-3">January 2021 - March 2023</div>
+                    <h4 className="flex mr-auto p-3">CT Subject Matter Expert</h4>
                 </div>
                 <ul className="py-4 list-group list-group-flush">
                     <li className="list-group-item bg-secondary">
-                        Performed Xray analysis on a wide variety of parts from fiber connectors to RF circuit boards to determine root cause of customer complaints or requirement nono-conformance
+                        Performed Xray analysis on a wide variety of parts from fiber connectors to RF circuit boards to determine root cause of customer complaints or requirement non-conformance
                     </li>
                     <li className="list-group-item bg-secondary">
                         Trained multiple technicians and created 3D metrology calibration test method to allow CT scanner operation for failure and metrology analysis
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Streamlined scanning operation and created a file management system to get final product to customers 30% quicker
+                        Streamlined scanning operation and created a file management system to get final product to customers 20% quicker
                     </li>
                 </ul>
             </div>
             <div className="m-3">
                 <div className="d-flex justify-context-between"> 
                     <h4 className="flex mr-auto p-3">Fiber Lab Failure Analysis Engineer</h4>
-                    <div className="flex py-3">June 2020 - October 2022</div>
                 </div>
                 <ul className="py-4 list-group list-group-flush">
                     <li className="list-group-item bg-secondary">
@@ -125,7 +110,29 @@ export default function Experience(){
                     </li>
                 </ul>
             </div>
-        </div>
+            <hr className="my-4 bg-secondary"></hr>
+            <div className="d-flex justify-context-between">
+                <h2 className="flex mr-auto p-3">Engineering Co-op</h2>
+                <h2 className="flex p-3">May 2018 - April 2020</h2>
+            </div>
+            <div className="m-3">
+                <div className="d-flex justify-context-between"> 
+                    <h4 className="flex mr-auto p-3">Test Lab Automation Development</h4>
+                </div>
+                <ul className="py-4 list-group list-group-flush">
+                    <li className="list-group-item bg-secondary">
+                        Worked closely with customers to obtain functional requirements for optical analysis tools</li>
+                    <li className="list-group-item bg-secondary">
+                        Developed visual basic for application (VBA) tools, increasing lab efficiency by 5%
+                    </li>
+                    <li className="list-group-item bg-secondary">
+                        Assisted in maintenance and design for C# data acquisition applications
+                    </li>
+                    <li className="list-group-item bg-secondary">
+                        Created visual basic scripts to streamline user experience with remote file storage system    
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 );
