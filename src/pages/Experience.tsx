@@ -6,7 +6,7 @@ export default function Experience(){
   return (
     <div className="jumbotron">
         <div className="w-75 mx-auto">
-            <h1>Work Experience -- CommScope Inc</h1>
+            <h1>Work Experience - CommScope Inc</h1>
             <hr className="my-4 bg-secondary"></hr>
             <div className="d-flex justify-context-between">
                 <h2 className="flex mr-auto p-3">Test Engineer</h2>
@@ -52,13 +52,13 @@ export default function Experience(){
                         Picked up a new web framework (4D) on a short timeline and was able to make impactful changes for the team within the first month of learning
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Influcened development team to implement automated test builds and developed bug tracking page to increase developer efficency and reduce scope creep
+                        Influenced development team to implement automated test builds and developed bug tracking page to increase developer efficency and reduce scope creep
                     </li>
                     <li className="list-group-item bg-secondary">
                         Mentored team members on using Git as project transferred from TFS version control
                     </li>
                     <li className="list-group-item bg-secondary">
-                        Used knowledge of API's, corperate directory technologies (Azure Active Directory), and enterprise project management systems to eliminate user and project database upkeep by connecting application to Microsoft Graph and Planview
+                        Used knowledge of API's, corporate directory technologies (Azure Active Directory), and enterprise project management systems to eliminate user and project database upkeep by connecting application to Microsoft Graph and Planview
                     </li>
                 </ul>
             </div>

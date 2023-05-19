@@ -30,7 +30,7 @@ function Skills() {
         <hr className="my-3 bg-secondary"></hr>
         <div className="row p-2">
             <div className="col-lg">
-                <SkillCard title="C#" rating={4} text="1.5 year of experience building RESTful APIs and supporting development in data acquisition applications"  />
+                <SkillCard title="C#" rating={4} text="1.5 years of experience building RESTful APIs and supporting development in data acquisition applications"  />
             </div>
             <div className="col-lg">
                 <SkillCard title="Typescript" rating={4.5} text="2 years of experience building my personal page and dveloping company test lab web tools"/>
@@ -57,10 +57,10 @@ function Skills() {
                 <SkillCard title="React" rating={5} text="2 years of experience building web applications using tools such as React-Query, Highcharts, and Material UI"  />
             </div>
             <div className="col-lg">
-                <SkillCard title=".NET Core" rating={3.5} text="1.5 year of experience building web APIs using libraries such as EF Core, Swashbuckle, NUnit, and Automapper"/>
+                <SkillCard title=".NET Core" rating={3.5} text="1.5 years of experience building web APIs using libraries such as EF Core, Swashbuckle, NUnit, and Automapper"/>
             </div>
             <div className="col-lg">
-                <SkillCard title="NextJS" rating={4} text="1.5 year of experience with React used to create Test Lab Central application for data centralization and management"  />
+                <SkillCard title="NextJS" rating={4} text="1.5 years of experience with React used to create Test Lab Central application for data centralization and management"  />
             </div>
         </div>
         <h1 className="mt-3">Software Tools</h1>
@@ -84,7 +84,7 @@ function Skills() {
                 <SkillCard title="CAD / Volume Graphics " rating={3} text="Used CAD softwares to create test fixtures, determine failures, and perform measurement analysis"/>
             </div>
             <div className="col-lg">
-                <SkillCard title="Microsoft Graph API" rating={3} text="Integrated Microsoft Graph API with Azure Active Directory to create SSO and user funcationality for lab management system"  />
+                <SkillCard title="Microsoft Graph API" rating={3} text="Integrated Microsoft Graph API with Azure Active Directory to create SSO and user functionality for lab management system"  />
             </div>
         </div>
     </div>

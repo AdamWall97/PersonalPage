@@ -50,7 +50,7 @@ function Home() {
           <i className="bi bi-gear card-img-top text-center text-primary" style={{"fontSize":"10rem"}}></i>
           <div className="card-body">
             <h5 className="card-title font-weight-bold">Engineering Background</h5>
-            <p className="card-text">I have 5 years of software development experience with 2 years of full stack sotware web development for enterprise lab and resource management applications. I obtained a mechanical engineering degree from the University of Minnesota with a minor in computer science.</p>
+            <p className="card-text">I have 5 years of software development experience with 2 years of full stack software web development for enterprise lab and resource management applications. I obtained a mechanical engineering degree from the University of Minnesota with a minor in computer science.</p>
             <a href="/experience" className="btn btn-primary">Go to Experience</a>
           </div>
           </div>
