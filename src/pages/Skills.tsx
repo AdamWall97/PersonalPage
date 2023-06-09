@@ -2,27 +2,6 @@ import React from "react";
 import SkillCard from "componets/SkillCard";
 function Skills() {
   
-  /*
-    Languges
-    C#
-    Typescript
-    HTML / CSS 
-    SQL
-    Visual Basic
-    4D (php)
-    
-    Frameworks / Libraries
-    React
-    .NET
-    NextJS
-    Jquery
-    Tools
-    Engineering
-
-    Failure Mode and Effects Analysis (FMEA)
-    Process Improvement
-    <html /><css /><javascript</javascript>
-  */
     return (
     <div className="jumbotron">
     <div className="w-75 m-auto">
@@ -30,7 +9,7 @@ function Skills() {
         <hr className="my-3 bg-secondary"></hr>
         <div className="row p-2">
             <div className="col-lg">
-                <SkillCard title="C#" rating={4} text="1.5 years of experience building RESTful APIs and supporting development in data acquisition applications"  />
+                <SkillCard title="C#" rating={4} text="2 years of experience building RESTful APIs and supporting development in data acquisition applications"  />
             </div>
             <div className="col-lg">
                 <SkillCard title="Typescript" rating={4.5} text="2 years of experience building my personal page and dveloping company test lab web tools"/>
@@ -57,7 +36,7 @@ function Skills() {
                 <SkillCard title="React" rating={5} text="2 years of experience building web applications using tools such as React-Query, Highcharts, and Material UI"  />
             </div>
             <div className="col-lg">
-                <SkillCard title=".NET Core" rating={3.5} text="1.5 years of experience building web APIs using libraries such as EF Core, Swashbuckle, NUnit, and Automapper"/>
+                <SkillCard title=".NET Core" rating={3.5} text="2 years of experience building web APIs using libraries such as EF Core, Swashbuckle, NUnit, and Automapper"/>
             </div>
             <div className="col-lg">
                 <SkillCard title="NextJS" rating={4} text="1.5 years of experience with React used to create Test Lab Central application for data centralization and management"  />
